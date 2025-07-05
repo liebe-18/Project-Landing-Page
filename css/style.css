@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+ul {
+    list-style: none;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1020px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+}
